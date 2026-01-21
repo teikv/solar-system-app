@@ -1,16 +1,35 @@
-# React + Vite
+# 🪐 Solar System 3D App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An immersive and interactive 3D Solar System educational application built with **React** and **Three.js**. This project was developed to help students visualize the scale and movement of our solar system beyond traditional textbooks.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- **Interactive 3D Environment:** Zoom, rotate, and explore planets using OrbitControls.
+- **Planetary Data Dashboard:** View detailed specs like mass, distance, and atmosphere.
+- **Orbit Simulation:** Realistic planetary revolution and rotation animations.
+- **Optimized Performance:** Uses Level of Detail (LOD) for smooth 60 FPS rendering.
 
-## React Compiler
+## 🛠 Tech Stack
+- **Framework:** React.js
+- **3D Engine:** [React Three Fiber](https://github.com/pmndrs/react-three-fiber) (R3F)
+- **Utilities:** [Drei](https://github.com/pmndrs/drei)
+- **Rendering:** Three.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Project Structure
+- `/src/components`: Reusable 3D components (Planets, Sun, Orbits).
+- `/src/assets`: Textures and 3D models.
+- `/src/hooks`: Custom hooks for animation and state management.
 
-## Expanding the ESLint configuration
+## ⚙️ Quick Start
+Follow these steps to run the project locally:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   git clone [https://github.com/teikv/solar-system-app.git](https://github.com/teikv/solar-system-app.git)
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   
